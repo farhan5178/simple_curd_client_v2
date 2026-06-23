@@ -33,7 +33,7 @@ export default function UsersTable({users,deleteUserAction}) {
               <Table.Cell>
                 <Link href={`/users/${user._id}`}>
                 <Button variant='outline'>Details</Button></Link>
-                <Link href={`/users/${user._id}`}>
+                <Link href={`/users/${user._id}/edit`}>
                     <Button variant='outline'>edit</Button>
                 </Link>
    <AlertDialog>
